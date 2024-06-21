@@ -1,0 +1,22 @@
+.mainBox {
+  position: fixed;
+  display: flex;
+  background: transparent;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+.name {
+  margin: 50px 60px;
+}
+.topRight {
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-end;
+  /* gap: 50px; */
+  margin-right: 50px;
+}
+.topRight h4 {
+  border: 1px solid white;
+  padding: 7px 15px;
+  border-radius: 10px;
+}

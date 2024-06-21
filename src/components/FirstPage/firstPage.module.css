@@ -1,0 +1,42 @@
+.box {
+  width: 100%;
+  /* background-color: rgb(107, 99, 99); */
+  height: 100vh;
+  display: flex;
+}
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+  /* align-items: center; */
+  /* background-color: aqua; */
+  height: 100%;
+}
+.right {
+  width: 50%;
+  height: 100%;
+  /* background-color: azure; */
+}
+.smallLeft {
+  width: 70%;
+}
+.left h2 {
+  margin: 0;
+  font-size: 5.5vw;
+}
+.left p {
+  margin: 12px;
+  font-size: 1.3vw;
+}
+.left button {
+  width: 100px;
+  /* left: -12; */
+  /* padding: 10px; */
+  cursor: pointer;
+  border: 0;
+  font-size: medium;
+  color: rgb(186, 117, 209);
+  background: transparent;
+}
