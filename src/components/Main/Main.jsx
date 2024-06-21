@@ -1,6 +1,8 @@
 import About from "../About/About";
+import Contacts from "../Contacts/Contacts";
 import FirstPage from "../FirstPage/FirstPage";
 import Navbar from "../Navbar/Navbar";
+import Projects from "../Projects/Projects";
 import Skill from "../Skills/Skill";
 
 function Main() {
@@ -10,6 +12,8 @@ function Main() {
       <FirstPage />
       <About />
       <Skill />
+      <Projects />
+      <Contacts />
     </>
   );
 }
